@@ -62,11 +62,20 @@ into the {body} of the default.hbs template --}}
                         {{/if}}
                     </section>
                 </section>
-                <div class="post-full-footer-right">
-                    <a class="author-card-button" href="{{url}}">Read More</a>
-                </div>
 
                 {{/author}}
+
+                <section class="post-share">
+                    <div class="post-share-label">Share this {{> "icons/point"}}</div>
+                    <a class="post-share-tw" href="https://twitter.com/share?text={{encode title}}&amp;url={{url absolute="true"}}"
+                        onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
+                        {{> "icons/twitter"}}
+                    </a>
+                    <a class="post-share-fb" href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}"
+                        onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
+                        {{> "icons/facebook"}}
+                    </a>
+                </section>
             </footer>
 
             {{!--

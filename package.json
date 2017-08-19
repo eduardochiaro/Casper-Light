@@ -12,7 +12,8 @@
         "mobile": "assets/screenshot-mobile.jpg"
     },
     "author": {
-        "name": "Eduardo Chiaro"
+        "name": "Eduardo Chiaro",
+        "email": "e.chiaro@gmail.com"
     },
     "gpm": {
         "type": "theme",
