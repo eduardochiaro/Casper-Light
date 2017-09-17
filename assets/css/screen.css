@@ -760,6 +760,11 @@ Usage (In Ghost edtior):
     max-width: none;
 }
 
+.post-full-content a[href$="#gallery"] {
+    display: inline-flex;
+    margin-left: 15px;
+    box-shadow: none;
+}
 
 /* Image captions
 
