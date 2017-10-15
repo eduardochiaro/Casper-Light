@@ -150,7 +150,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 200px;
-    max-height: 450px;
+    max-height: 385px;
     padding: 10vw 4vw;
     text-align: center;
 }
@@ -1586,7 +1586,7 @@ Usage (In Ghost editor):
 
 @media (max-width: 900px) {
     .floating-header {
-        height: 40px;
+        /*height: 40px;*/
     }
     .floating-header-title,
     .floating-header-logo {
