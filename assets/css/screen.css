@@ -946,7 +946,7 @@ Usage (In Ghost editor):
 }
 
 .post-full-content pre code * {
-    color: inherit;
+    /*color: inherit;*/
 }
 
 .post-full-content .fluid-width-video-wrapper {
