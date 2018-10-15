@@ -929,6 +929,10 @@ Usage (In Ghost editor):
     border-radius: 3px;
 }
 
+.post-full-content p code {
+    word-break: break-all;
+}
+
 .post-full-content pre {
     overflow-x: auto;
     margin: 1.5em 0 3em;
@@ -949,8 +953,8 @@ Usage (In Ghost editor):
     background: transparent;
 }
 
-.post-full-content pre code * {
-    /*color: inherit;*/
+.post-full-content pre code :not(span) {
+    color: inherit;
 }
 
 .post-full-content .fluid-width-video-wrapper {
