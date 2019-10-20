@@ -1,4 +1,6 @@
-# Casper
+# Casper 
+
+![version](https://img.shields.io/github/package-json/v/eduardochiaro/Casper-Light?style=for-the-badge) ![dependecy](https://img.shields.io/david/dev/eduardochiaro/Casper-Light?style=for-the-badge) ![last-update](https://img.shields.io/github/last-commit/eduardochiaro/Casper-Light?style=for-the-badge) ![licence](https://img.shields.io/github/license/eduardochiaro/Casper-Light?style=for-the-badge)
 
 The default theme for [Ghost](http://github.com/tryghost/ghost/). This is the latest development version of Casper. If you're just looking to download the latest release, head over to the [releases](https://github.com/TryGhost/Casper/releases) page.
 
