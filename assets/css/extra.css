@@ -17,6 +17,7 @@
 
 .site-nav {
     height: 54px;
+    overflow: hidden;
 }
 
 .site-nav-left {
