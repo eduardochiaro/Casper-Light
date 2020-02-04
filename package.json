@@ -2,7 +2,7 @@
     "name": "casper-light",
     "description": "Custom version of the default personal blogging theme for Ghost. Beautiful, minimal and responsive.",
     "demo": "https://blog.eduardochiaro.com",
-    "version": "3.0.5",
+    "version": "3.0.6",
     "engines": {
         "ghost": ">=3.0.0",
         "ghost-api": "v3"
@@ -43,7 +43,7 @@
         "autoprefixer": "9.7.1",
         "beeper": "2.0.0",
         "cssnano": "4.1.10",
-        "gscan": "3.2.1",
+        "gscan": "3.3.0",
         "gulp": "4.0.2",
         "gulp-concat": "2.6.1",
         "gulp-livereload": "4.0.2",
