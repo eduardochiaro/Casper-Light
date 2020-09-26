@@ -316,7 +316,7 @@ body {
 .site-header-background:not(.responsive-header-img) .site-nav-left-wrapper:after,
 .site-nav-main .site-nav-left-wrapper:after {
     right: 0;
-    background: linear-gradient(to right, color-mod(var(--blue) l(-5%) a(0)) 0%,color-mod(var(--blue) l(-5%)) 100%);
+    background: linear-gradient(to right, color-mod(var(--darkgrey) l(-5%) a(0)) 0%,color-mod(var(--darkgrey) l(-5%)) 100%);
 }
 
 .site-nav-left {
@@ -682,8 +682,6 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 
 .no-image .post-card-title {
     margin-top: 0;
-    font-family: var(--montserrat-font);
-    font-weight: 500;
 }
 
 .post-card-content {
@@ -1146,11 +1144,6 @@ Usage (In Ghost edtior):
     width: 100vw;
 }
 
-.post-full-content a[href$="#gallery"] {
-    display: inline-flex;
-    margin-left: 15px;
-    box-shadow: none;
-}
 
 /* Image captions
 
@@ -1868,7 +1861,7 @@ Usage (In Ghost editor):
 
 .read-next {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    background: color-mod(var(--blue) l(-5%));
+    background: color-mod(var(--darkgrey) l(-5%));
 }
 
 .read-next-feed {
@@ -1926,7 +1919,7 @@ Usage (In Ghost editor):
     overflow: hidden;
     margin: 0 25px 50px;
     padding: 25px;
-    background: linear-gradient(color-mod(var(--blue) l(+2%)), color-mod(var(--blue) l(-5%)));
+    background: linear-gradient(color-mod(var(--darkgrey) l(+2%)), color-mod(var(--darkgrey) l(-5%)));
     border-radius: 3px;
 }
 
@@ -2822,7 +2815,7 @@ Usage (In Ghost editor):
     padding-top: 20px;
     padding-bottom: 60px;
     color: #fff;
-    background: color-mod(var(--blue) l(-5%));
+    background: color-mod(var(--darkgrey) l(-5%));
 }
 
 .site-footer-content {

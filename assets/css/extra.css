@@ -1,3 +1,21 @@
+@import "parts/variables.css";
+.site-nav-main {
+    background: color-mod(var(--blue) l(-5%));
+}
+.site-header-background:not(.responsive-header-img) .site-nav-left-wrapper:after,
+.site-nav-main .site-nav-left-wrapper:after {
+    background: linear-gradient(to right, color-mod(var(--blue) l(-5%) a(0)) 0%,color-mod(var(--blue) l(-5%)) 100%);
+}
+.read-next {
+    background: color-mod(var(--blue) l(-5%));
+}
+
+.site-footer {
+    background: color-mod(var(--blue) l(-5%));
+}
+.read-next-card {
+    background: linear-gradient(color-mod(var(--blue) l(+2%)), color-mod(var(--blue) l(-5%)));
+}
 
 .tag-short .post-full-image {
     height: 400px;
@@ -26,4 +44,15 @@
 
 .site-nav-right {
     padding-top: 0px;
+}
+
+.post-full-content a[href$="#gallery"] {
+    display: inline-flex;
+    margin-left: 15px;
+    box-shadow: none;
+}
+
+.no-image .post-card-title {
+    font-family: var(--montserrat-font);
+    font-weight: 500;
 }
