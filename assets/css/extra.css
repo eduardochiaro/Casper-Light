@@ -56,3 +56,6 @@
     font-family: var(--montserrat-font);
     font-weight: 500;
 }
+.home-template .gh-head-menu ul li {
+    color: var(--darkgrey);
+}
